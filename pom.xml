@@ -2,8 +2,8 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.levigo.jbig2</groupId>
-	<artifactId>levigo-jbig2-imageio</artifactId>
-	<name>jbig2-imageio</name>
+	<artifactId>levigo-jbig2-imageio-cdx</artifactId>
+	<name>jbig2-imageio-cdx</name>
 	<version>1.6.3</version>
 
 	<distributionManagement>
@@ -14,10 +14,10 @@
 	</distributionManagement>
 
 	<scm>
-        <connection>scm:git:ssh://github.com/levigo/jbig2-imageio.git</connection>
-		<developerConnection>scm:git:ssh://git@github.com/levigo/jbig2-imageio.git</developerConnection>
-        <url>https://github.com/levigo/jbig2-imageio</url>
-        <tag>levigo-jbig2-imageio-1.6.3-SNAPSHOT</tag>
+        <connection>scm:git:ssh://github.com/clouddocx/jbig2-imageio.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com/clouddocx/jbig2-imageio.git</developerConnection>
+        <url>https://github.com/clouddocx/jbig2-imageio.git</url>
+        <tag>cdx-1.6.3</tag>
 	</scm>
 
 	<dependencies>

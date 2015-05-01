@@ -210,7 +210,7 @@ public class JBIG2ImageReader extends ImageReader {
   @Override
   public BufferedImage read(int imageIndex, ImageReadParam param) throws IOException {
     if (param == null) {
-      log.info("JBIG2ReadParam not specified. Default will be used.");
+      //log.info("JBIG2ReadParam not specified. Default will be used.");
       param = (JBIG2ReadParam) getDefaultReadParam(imageIndex);
     }
 
@@ -238,7 +238,7 @@ public class JBIG2ImageReader extends ImageReader {
   @Override
   public Raster readRaster(int imageIndex, ImageReadParam param) throws IOException {
     if (param == null) {
-      log.info("JBIG2ReadParam not specified. Default will be used.");
+      //log.info("JBIG2ReadParam not specified. Default will be used.");
       param = (JBIG2ReadParam) getDefaultReadParam(imageIndex);
     }
 
@@ -299,7 +299,7 @@ public class JBIG2ImageReader extends ImageReader {
       }
 
       if (this.globals == null) {
-        log.info("Globals not set.");
+        //log.info("Globals not set.");
       }
 
       this.document = new JBIG2Document((ImageInputStream) this.input, this.globals);
